@@ -1,20 +1,39 @@
 # Jonathan Morales — Nightmarejam
 
-Audio engineer (Tom Cat Sound / Floating Garden Soundworks) building a personal AI
-ecosystem from a homelab: an AI companion, the governance framework that gives it
-its reasoning discipline, and the infrastructure both run on. Everything here is
-**human-directed, AI-assisted** ("vibe coded") — openly, with receipts.
+Audio engineer building a personal AI ecosystem from a homelab. It's one system with
+three parts: **a companion** that thinks, **a framework** that gives it its reasoning
+discipline, and **the infrastructure** both run on. Everything is **human-directed,
+AI-assisted** — openly, with receipts.
 
-## The ecosystem
+## Start here — one idea
 
-| Repo | What it is |
-|---|---|
-| [constella-framework](https://github.com/Nightmarejam/constella-framework) | Civic governance framework (resonance, dignity, renewal) — and the **logic basis** of the whole stack: confirmability tiers, concept lineage, the Constella–Harmony bridge |
-| [faithh-pet-terminal](https://github.com/Nightmarejam/faithh-pet-terminal) | **FAITHH** — personal AI companion (MegaMan Battle Network-inspired): Flask backend, ChromaDB RAG, vLLM inference on a Proxmox homelab with an HP Gen8 knowledge node |
-| [SensorBridge](https://github.com/Nightmarejam/SensorBridge) | .NET host→VM hardware telemetry over gRPC/WMI — now the node-health layer feeding FAITHH |
-| [celestial-equilibrium](https://github.com/Nightmarejam/celestial-equilibrium) | The Celestial Equilibrium doctrine — timestamped public release (CC BY 4.0) |
-| [runbook-to-rule-them-all](https://github.com/Nightmarejam/runbook-to-rule-them-all) | Ops runbooks for the systems that run all of the above |
-| *homelab, research-notes, tomcat-sound* | Private: hardware/repair knowledge + the conversation-to-knowledge pipeline, cross-domain theory notes, business records |
+The thread running through all of it is **attestation**: never treat something as true,
+or act on it, without a checkable receipt. My AI companion uses it to stay honest about
+what it knows; the governance framework proposes it for how a community decides things.
+Same idea, two scales. If you read one file, read
+[the confirmability schema](https://github.com/Nightmarejam/constella-framework/blob/main/docs/reference/confirmability.md).
+
+## The ecosystem — three pillars, then support
+
+**The companion**
+- [faithh-pet-terminal](https://github.com/Nightmarejam/faithh-pet-terminal) — **FAITHH**,
+  a personal AI companion (Mega Man Battle Network-inspired NetNavi) that perceives,
+  reasons, remembers, and is learning to act — honestly.
+
+**The framework (its reasoning basis)**
+- [constella-framework](https://github.com/Nightmarejam/constella-framework) — a civic
+  governance framework built on attestation; also the logic basis FAITHH runs on.
+- [celestial-equilibrium](https://github.com/Nightmarejam/celestial-equilibrium) — a
+  doctrine text (CC BY 4.0) that Constella builds on.
+
+**The infrastructure**
+- [SensorBridge](https://github.com/Nightmarejam/SensorBridge) — host→VM hardware
+  telemetry; the node-health layer feeding the companion.
+- [runbook-to-rule-them-all](https://github.com/Nightmarejam/runbook-to-rule-them-all) —
+  the ops runbooks that keep the homelab running.
+
+*Private:* homelab (hardware + the conversation-to-knowledge pipeline), research-notes
+(cross-domain theory), tomcat-sound (business records).
 
 ## Scope — what these repos are, and what they are *not*
 
