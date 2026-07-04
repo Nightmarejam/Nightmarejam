@@ -16,6 +16,27 @@ its reasoning discipline, and the infrastructure both run on. Everything here is
 | [runbook-to-rule-them-all](https://github.com/Nightmarejam/runbook-to-rule-them-all) | Ops runbooks for the systems that run all of the above |
 | *homelab, research-notes, tomcat-sound* | Private: hardware/repair knowledge + the conversation-to-knowledge pipeline, cross-domain theory notes, business records |
 
+## Scope — what these repos are, and what they are *not*
+
+So nobody mistakes research for a product:
+
+- These are **personal research-and-build repos**, actively in development. Not
+  companies, not shipping products, not services you can sign up for.
+- **FAITHH** is a personal AI companion I run on my own homelab — *not* a hosted
+  product or a general assistant you can deploy as-is.
+- **Constella** is a **framework and design** — a governance model with specs, RFCs,
+  and honest hypotheses. It is *not* a live/deployed governance system, has run **zero
+  pilots yet**, and its founding assumption is labeled unprovable on purpose.
+- Anything tagged **`speculative`** (much of the attestation, PET-device, and chain
+  work) is *thinking on paper*, not built or verified. The tiers tell you which is which.
+- **SensorBridge / runbook-to-rule-them-all** are working ops tooling, but scoped to
+  *my* setup — useful as reference, not turnkey.
+- Private repos (homelab, research-notes, tomcat-sound) stay private: personal hardware
+  notes, raw theory, and business/financial records. Not published.
+
+If a claim isn't tagged `confirmed` with a receipt, treat it as a work-in-progress idea.
+That's the whole point of the discipline below.
+
 ## How the work is made (and how to check it)
 
 - **Confirmability tiers**: docs claim facts as `confirmed` (with a receipt: git
