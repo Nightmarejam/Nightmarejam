@@ -23,6 +23,11 @@ Same idea, two scales. If you read one file, read
 **The framework (its reasoning basis)**
 - [constella-framework](https://github.com/Nightmarejam/constella-framework) — a civic
   governance framework built on attestation; also the logic basis FAITHH runs on.
+- [alife](https://github.com/Nightmarejam/alife) — the empirical sandbox: a bit-exact,
+  reproducible artificial-life ecology that *tests* Constella's governance mechanisms (the
+  civic floor, diversity reserves) at scale. Findings — **including honest negative results** —
+  are the receipts behind the framework's claims. This is where a design earns the right to
+  become vocabulary.
 - [celestial-equilibrium](https://github.com/Nightmarejam/celestial-equilibrium) — a
   doctrine text (CC BY 4.0) that Constella builds on.
 
@@ -70,6 +75,9 @@ That's the whole point of the discipline below.
 
 ## Current state (2026-07)
 
-Constella core pass 5/6 complete. FAITHH's Gen8/NAS nodes temporarily offline
-(re-auth pending physical access); `[VERIFY]`-tagged facts wait for them — nothing
-gets promoted to confirmed without the box answering.
+Constella core pass 5/6 complete. The **ALife sandbox** now runs reproducible UCF floor
+experiments (v1–v4) — including honest negatives (an unconditional floor freezes or collapses;
+a targeted floor can adapt but isn't yet robust) — the first bottom-up evidence for Constella's
+mechanisms. FAITHH's Gen8/NAS nodes temporarily offline (re-auth pending physical access);
+`[VERIFY]`-tagged facts wait for them — nothing gets promoted to confirmed without the box
+answering.
