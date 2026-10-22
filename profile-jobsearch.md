@@ -12,7 +12,7 @@ self-taught across the stack.
 | Project | What it is | Notable |
 |---|---|---|
 | [alife](https://github.com/Nightmarejam/alife) | Artificial-life simulation engine | Python + **Rust ports that reproduce each other bit-for-bit**; published verification anchors; failed hypotheses kept in the record |
-| [faithh-pet-terminal](https://github.com/Nightmarejam/faithh-pet-terminal) | Local AI companion (FAITHH) | Persistent memory over ~450k indexed documents; retrieval pipeline on self-hosted ChromaDB |
+| `faithh-pet-terminal` (private) | Local AI companion (FAITHH) | Persistent memory over ~450k indexed documents; retrieval pipeline on self-hosted ChromaDB |
 | [constella-framework](https://github.com/Nightmarejam/constella-framework) | Governance framework + docs system | ~150 documents under CI (link/coherence audit in GitHub Actions); evidence-tiered claims |
 | [SensorBridge](https://github.com/Nightmarejam/SensorBridge) | Host→VM hardware telemetry | C#/.NET gRPC service |
 | [runbook-to-rule-them-all](https://github.com/Nightmarejam/runbook-to-rule-them-all) | Ops runbooks | Infrastructure-as-documentation for a multi-node homelab |

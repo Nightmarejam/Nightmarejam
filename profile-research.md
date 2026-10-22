@@ -59,7 +59,7 @@ graph TD
   text (CC BY 4.0) that Constella builds on.
 
 **The companion**
-- [faithh-pet-terminal](https://github.com/Nightmarejam/faithh-pet-terminal) — **FAITHH**, a
+- `faithh-pet-terminal` (private repo) — **FAITHH**, a
   personal AI companion (Mega Man Battle Network–inspired NetNavi) that perceives, reasons,
   remembers, and is learning to act — honestly.
 
